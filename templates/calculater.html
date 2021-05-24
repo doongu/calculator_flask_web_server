@@ -1,0 +1,84 @@
+<div class="calculater">
+    <link rel="stylesheet" type="text/css" href="../static/cal_style.css" />
+    <script type="text/javascript" src="../static/cal_script.js"></script>
+
+    <form action="/answer" method="post" class="form" name="formc">
+        <input type="text" name="textview">
+<title> 한준규 과제제출 합니다.</title>
+     <table class="table">
+        <tr>
+            <td>
+                <input class="button" type="button" value="c" onclick = "clean()">
+            </td>
+          <td>
+                <input class="button" type="button" value="del" onclick="deletee()" >
+          </td>
+        
+          <td>
+                <input class="button" type="button" value="/" onclick = "display(value)">
+          </td>
+
+        </tr>
+        <tr>
+            <td>
+                <input class="button" type="button" value="7" onclick = "display(value)">
+            </td>
+          <td>
+                <input class="button" type="button" value="8" onclick = "display(value)">
+          </td>
+          <td>
+               <input class="button" type="button" value="9" onclick = "display(value)">
+          </td>
+          <td>
+           <input class="button" type="button" value="+" onclick = "display(value)">
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input class="button" type="button" value="4" onclick = "display(value)">
+            </td>
+          <td>
+                <input class="button" type="button" value="5" onclick = "display(value)">
+          </td>
+          <td>
+               <input class="button" type="button" value="6" onclick = "display(value)">
+          </td>
+          <td>
+           <input class="button" type="button" value="-" onclick = "display(value)">
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input class="button" type="button" value="1" onclick = "display(value)">
+            </td>
+          <td>
+                <input class="button" type="button" value="2" onclick = "display(value)">
+          </td>
+          <td>
+               <input class="button" type="button" value="3" onclick = "display(value)">
+          </td>
+          <td>
+           <input class="button" type="button" value="*" onclick = "display(value)">
+          </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input class="button" type="button" value="0" onclick = "display(value)">
+            </td>
+          <td>
+                <input class="button" type="button" value="." onclick = "display(value)">
+          </td>
+          <td>
+               <input class="button" type="submit" value="=" onclick=" result()">
+          </td>
+        </tr>
+     </table>
+</form>
+   
+    </div>
+    
+
+    <script src="cal1.js"></script>

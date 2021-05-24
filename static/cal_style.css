@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: F0F0F0;
+    height: 100vh;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculater{
+    background-color: 706A6A;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-items: center;
+    border: 2px solid pink;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px salmon;
+    
+}
+
+.form input{
+    width: 100%;
+    font-size: 20px;
+    padding: 40px;
+
+}
+.button{
+    width: 75%;
+    background-color: pink;
+    border: solid rgb(245, 133, 151) 2px;
+    margin: 5%;
+    padding: 10px;
+    font-size: 20px;
+}
+.button [value="="]{
+   
+}
